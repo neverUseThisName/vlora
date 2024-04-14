@@ -2,7 +2,7 @@ import torch
 
 
 def test_transformer():
-    from timm.models import VisionTransformerVLoRA
+    from vlora.models import VisionTransformerVLoRA
 
     vit = VisionTransformerVLoRA()
     x = torch.randn((1, 3, 224, 224))

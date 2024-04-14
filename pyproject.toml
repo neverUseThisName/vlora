@@ -10,6 +10,7 @@ python = "^3.10"
 torch = {version = "^2.2.2+cpu", source = "pytorch_cpu"}
 torchvision = {version = "^0.17.2+cpu", source = "pytorch_cpu"}
 pytest = "^8.1.1"
+timm = "^0.9.16"
 
 
 [[tool.poetry.source]]
